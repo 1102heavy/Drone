@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# STM32CubeIDE build outputs
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+.metadata/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Vendor documents (link instead of committing)
+*.pdf
+
+# Large raw logs
+data/raw/
